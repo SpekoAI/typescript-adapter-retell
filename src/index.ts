@@ -1,5 +1,5 @@
 /**
- * @speko/adapter-retell — Retell adapter for Speko.
+ * @spekoai/adapter-retell — Retell adapter for Speko.
  *
  * This package is scaffolded as a placeholder. The real implementation will
  * provide helpers for pointing Retell agents at Speko's proxy endpoints so

@@ -1,4 +1,4 @@
-# @speko/adapter-retell
+# @spekoai/adapter-retell
 
 > **Coming soon.** This package is currently a scaffolded placeholder.
 

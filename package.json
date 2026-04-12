@@ -1,5 +1,5 @@
 {
-  "name": "@speko/adapter-retell",
+  "name": "@spekoai/adapter-retell",
   "version": "0.0.0",
   "description": "Retell adapter for Speko — point Retell at Speko's router instead of single providers",
   "license": "MIT",
