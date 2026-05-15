@@ -3,5 +3,21 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "library",
   "sourceRoot": "packages/adapter-retell/src",
-  "tags": ["scope:public", "type:adapter", "lang:ts"]
+  "tags": ["scope:public", "type:adapter", "lang:ts"],
+  "targets": {
+    "lint": {
+      "executor": "nx:run-commands",
+      "cache": true,
+      "inputs": [
+        "default",
+        "^default",
+        "{workspaceRoot}/biome.jsonc",
+        { "externalDependencies": ["@biomejs/biome"] }
+      ],
+      "options": {
+        "cwd": "packages/adapter-retell",
+        "command": "biome ci ."
+      }
+    }
+  }
 }
